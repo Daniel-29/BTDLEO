@@ -3,6 +3,7 @@
     src: url('./fonts/red-dead-redemption/CHINESER.TTF') format('truetype');
     font-weight: normal;
     font-style: normal;
+    font-family: 'Red Dead Redemption Font', sans-serif;
 }
 
 .countdown-container {

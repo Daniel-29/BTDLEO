@@ -1,0 +1,75 @@
+@font-face {
+    font-family: 'Red Dead Redemption Font';
+    src: url('./fonts/red-dead-redemption/CHINESER.TTF') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-family: 'Red Dead Redemption Font', sans-serif;
+}
+body {
+    font-family: 'Red Dead Redemption Font', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #121212;
+    color: #fff;
+}
+.quiz-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    box-sizing: border-box; /* Asegúrate de que el padding no afecte al ancho total */
+}
+.quiz-header {
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+}
+.question-count {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+.question {
+    font-size: 2.2em;
+    margin-bottom: 20px;
+}
+#question-image {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+.option {
+    background-color: #333;
+    border: none;
+    border-radius: 20px;
+    color: white;
+    padding: 15px 20px;
+    margin: 10px auto; /* Auto para margen izquierdo y derecho centrará el botón */
+    width: 100%; /* Ajusta el 40px si es necesario según el padding del contenedor */
+    font-size: 1.4em;
+    transition: background-color 0.3s;
+    box-sizing: border-box; /* Asegúrate de que el padding no afecte al ancho total */
+    font-family: 'Red Dead Redemption Font', sans-serif; /* Aplica tu fuente personalizada */
+}
+.option:hover {
+    cursor: pointer;
+}
+.correct {
+    background-color: #4CAF50;
+}
+.incorrect {
+    background-color: #F44336;
+}
+.next-question {
+    background-color: rgb(238, 0, 0);
+    border: none;
+    border-radius: 20px;
+    color: white;
+    padding: 15px 20px;
+    font-size: 1.4em;
+    margin-top: 20px;
+    width: 100%;
+}
+.next-question:not(.visible) {
+    display: none;
+}

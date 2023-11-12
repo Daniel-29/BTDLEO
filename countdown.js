@@ -23,6 +23,6 @@ const x = setInterval(function() {
   // Si la cuenta regresiva termina, redirecciona a otro HTML
   if (distance < 0) {
     clearInterval(x);
-    window.location.href = "tu_otro_archivo.html"; // Cambia esto por tu URL
+    window.location.href = "message.html"; // Cambia esto por tu URL
   }
 }, 1000);

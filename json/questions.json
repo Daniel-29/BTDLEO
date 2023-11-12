@@ -1,0 +1,60 @@
+[
+    {
+        "question": "Que vamos a jugar hasta la madrugada?",
+        "options": [
+            "Valorant",
+            "Overcooked",
+            "Lolcito Lolcito Lolcito",
+            "Minecraft"
+        ],
+        "correct_answer": "Lolcito Lolcito Lolcito",
+        "image": "img/questions1-min.png"
+    },
+    {
+        "question": "Que se escucha de camino a peda?",
+        "options": [
+            "A la MOTOMAMI MOTOMAMI",
+            "Eminem",
+            "Avicii",
+            "Creepypasta"
+        ],
+        "correct_answer": "A la MOTOMAMI MOTOMAMI",
+        "image": "img/questions2-min.png"
+    }
+    ,
+    {
+        "question": "Hay que ponerse super tryhard en?",
+        "options": [
+            "Mario Kart",
+            "Overcooked",
+            "Mario Party",
+            "Evadir impuestos"
+        ],
+        "correct_answer": "Mario Party",
+        "image": "img/questions3-min.png"
+    }
+    ,
+    {
+        "question": "En que lenguaje nunca vamos a trabajar?",
+        "options": [
+            "Phyton",
+            "Golang",
+            "JavaScript",
+            "Assemblador de bicicletas"
+        ],
+        "correct_answer": "Assemblador de bicicletas",
+        "image": "img/questions4-min.jpg"
+    }
+    ,
+    {
+        "question": "En junio de 2024 vamos a estar en?",
+        "options": [
+            "Farmeando en Piltover",
+            "Conquistando Honduras",
+            "Explorando Sivar",
+            "Turistiando en Austria"
+        ],
+        "correct_answer": "Turistiando en Austria",
+        "image": "img/questions5-min.png"
+    }
+]
