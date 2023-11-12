@@ -1,0 +1,62 @@
+@font-face {
+    font-family: 'Red Dead Redemption Font';
+    src: url('./fonts/red-dead-redemption/CHINESER.TTF') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.countdown-container {
+    font-family: 'Red Dead Redemption Font', sans-serif;
+}
+
+body,
+html {
+    height: 100%;
+    margin: 0;
+    color: white;
+    font-family: 'Red Dead Redemption Font', sans-serif;
+}
+
+.bg {
+    /* La imagen de fondo */
+    background-image: url('img/background1.png');
+
+    /* Controla la posición y la escala de la imagen de fondo */
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.countdown-container {
+    position: absolute;
+    top: 75%;
+    /* Coloca la cuenta regresiva a la mitad de la altura */
+    width: 100%;
+    text-align: center;
+}
+
+.countdown {
+    font-size: 2em;
+    background: rgba(0, 0, 0, 0.5);
+    /* Fondo semitransparente */
+    display: inline-block;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+#preparation-message {
+    text-align: center;
+    font-size: 1em;
+    color: #a1a1a1;
+    margin-top: 20px;
+}
+
+
+#birthday-message {
+    position: absolute;
+    top: 10%;
+    text-align: center;
+    font-size: 1em;
+    color: #9b1616;
+}
